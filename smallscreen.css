@@ -15,10 +15,14 @@
 }
 
 html,
-body{
+body {
   font-family: maquette, sans-serif;
 }
 
+/* common classes */
+.text-decoration-none {
+  text-decoration: none;
+}
 
 /* header */
 .left-general-navigation,
@@ -92,8 +96,8 @@ body{
   font-weight: bold;
 }
 
-#grid-container{
-  display:grid;
+#grid-container {
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
   grid-gap: 10px;
@@ -101,13 +105,12 @@ body{
   padding-right: 10px;
 }
 
-.grid-item{
+.grid-item {
   min-height: 30vh;
   background-size: 100% 100%;
-  padding: 10px;
 }
 
-.cover-title{
+.cover-title {
   font-family: avalon, sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -115,33 +118,56 @@ body{
   text-decoration: none;
 }
 
-.cover-byline{
-  color: hsla(0,0%,100%,.6);
+.cover-byline,
+.cover-byline a {
+  color: hsla(0, 0%, 100%, 0.6);
   text-decoration: none;
   font-size: 12px;
 }
 
-.article-flex{
+.article-flex {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: 100%;
+  transition: background-color 0.4s ease;
+  background: rgba(0, 0, 0, 0.25)
+    url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png)
+    no-repeat;
+  background-size: 100% 100%;
+  will-change: background-color;
+  z-index: 2;
+  padding: 10px;
 }
 
-.cover-byline{
+.cover-byline {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  margin-top: 10px;
+}
 
-} 
+.cover-byline > li {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
 
-#main-article{
+.cover-byline > li > svg {
+  padding-right: 5px;
+}
+
+#main-article {
   background-image: url(assets/images/main.jpg);
 }
 
-#side-article1{
+#side-article1 {
   background-image: url(assets/images/mainside1.webp);
 }
 
-#side-article2{
+#side-article2 {
   background-image: url(assets/images/mainside2.webp);
+}
+
+.cover-div {
+  padding: 20px 0;
 }

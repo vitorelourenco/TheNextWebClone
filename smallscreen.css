@@ -7,10 +7,25 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "avalon";
+  src: url("assets/fonts/Avalon_Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body{
+  font-family: maquette, sans-serif;
+}
+
+
 /* header */
 .left-general-navigation,
 .right-general-navigation,
-.home-navigation {
+.home-navigation,
+.cover-logo,
+.cover-date {
   display: none;
 }
 
@@ -75,4 +90,52 @@
   display: block;
   text-decoration: none;
   font-weight: bold;
+}
+
+#grid-container{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.grid-item{
+  min-height: 30vh;
+  background-size: 100% 100%;
+  padding: 10px;
+}
+
+.cover-title{
+  font-family: avalon, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.cover-byline{
+  color: hsla(0,0%,100%,.6);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.article-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+#main-article{
+  background-image: url(assets/images/main.jpg);
+}
+
+#side-article1{
+  background-image: url(assets/images/mainside1.webp);
+}
+
+#side-article2{
+  background-image: url(assets/images/mainside2.webp);
 }

@@ -1,1 +1,6 @@
-
+/* header */
+.left-general-navigation,
+.right-general-navigation,
+.home-navigation {
+  display: none;
+}

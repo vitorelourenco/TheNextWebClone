@@ -25,16 +25,7 @@
   margin: 0 auto;
 }
 
-.icon {
-  display: block;
-  background: transparent
-    url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783)
-    no-repeat;
-  background-size: 1296px 1296px;
-  background-position: 1296px 1296px;
-  width: 16px;
-  height: 16px;
-}
+
 
 .search,
 .menu {
@@ -42,7 +33,8 @@
 }
 
 .search-icon {
-  background-position: -848px -848px;
+  border: unset;
+  background: unset;
 }
 
 .menu {
@@ -56,7 +48,7 @@
   background-color: #f42;
   display: block;
   height: 2px;
-  left: 14px;
+  /* left: 14px; */
   margin-top: -1px;
   position: absolute;
   top: 50%;

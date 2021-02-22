@@ -189,6 +189,10 @@ footer > div:first-child {
   padding: 2.5em 0;
 }
 
+.footer-links{
+  background: #131313;
+}
+
 .footer-links-social {
   margin-bottom: 1.5em;
 }
@@ -222,4 +226,16 @@ footer > div:first-child {
   text-decoration: none;
   font-family: Shentox, sans-serif;
   font-weight: bold;
+}
+
+.footer-legal{
+  display: flex;
+  color: #aaa;
+  height: 97px;
+  line-height: 97px;
+
+}
+
+.footer-legal p{
+  display: inline-block;
 }

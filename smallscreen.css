@@ -14,6 +14,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Shentox";
+  src: url("assets/fonts/Shentox.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   font-family: maquette, sans-serif;
@@ -100,7 +107,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
-  grid-row-gap: 30px;
+  grid-row-gap: 15px;
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 30px;
@@ -138,7 +145,6 @@ body {
   background-size: 100% 100%;
   will-change: background-color;
   z-index: 2;
-  padding: 10px;
 }
 
 .cover-byline {
@@ -170,5 +176,50 @@ body {
 }
 
 .cover-div {
-  padding: 20px 0;
+  padding: 10px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: black;
+}
+
+footer > div:first-child {
+  padding: 2.5em 0;
+}
+
+.footer-links-social {
+  margin-bottom: 1.5em;
+}
+
+.footer-links-social li {
+  display: inline-block;
+}
+
+.footer-links-social li a {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  padding: 12px;
+  text-align: center;
+  height: 15px;
+  width: 15px;
+}
+
+.footer-links-menu li {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 4px;
+}
+
+.footer-links-menu li a {
+  color: #aaa;
+  text-decoration: none;
+  font-family: Shentox, sans-serif;
+  font-weight: bold;
 }

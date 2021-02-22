@@ -15,7 +15,7 @@ We built this project in the process of practicing RWD and working with media qu
 
 - GitHub: [@vitorelourenco](https://github.com/vitorelourenco/)
 - Twitter: [@Vitorel](https://twitter.com/Vitorel)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/vitoremanuellourenco/)
+- LinkedIn: [vitoremanuellourenco](https://www.linkedin.com/in/vitoremanuellourenco/)
 
 👤 **Author2**
 

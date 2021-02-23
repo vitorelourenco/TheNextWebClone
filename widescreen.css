@@ -1,3 +1,42 @@
-.dummy {
-  color: red;
+.cover-logo,
+.cover-date,
+.main-article-header{
+  display: block;
+}
+
+.main-article-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px 20px 0px;
+}
+
+#main-article .article-flex{
+  justify-content: space-between;
+}
+
+.cover-date{
+  color: white;
+}
+
+.latest-funding-section > div:last-child > section:last-child{
+  display: block;
+}
+
+.story-investment {
+  width: 23.5%;
+}
+
+.story-flex .story-investment:nth-child(3) {
+  margin-right: 2%;
+}
+
+.latest-funding-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#main-article .cover-title{
+  font-size: 56px;
 }

@@ -1,7 +1,8 @@
 /* fonts */
 @font-face {
   font-family: "maquette";
-  src: url("assets/fonts/ARSMaquettePro-Regular.woff") format("woff"),
+  src:
+    url("assets/fonts/ARSMaquettePro-Regular.woff") format("woff"),
     url("assets/fonts/ARSMaquettePro-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -107,6 +108,17 @@ h5 {
   width: 20px;
 }
 
+.story-byline a {
+  color: #555;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.story-byline a span {
+  color: #aaa;
+  vertical-align: bottom;
+}
+
 .menu span:first-child {
   transform: translateY(-6px);
 }
@@ -167,12 +179,20 @@ h5 {
   justify-content: flex-end;
   height: 100%;
   transition: background-color 0.4s ease;
-  background: rgba(0, 0, 0, 0.25)
+  background:
+    rgba(0, 0, 0, 0.25)
     url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png)
     no-repeat;
   background-size: 100% 100%;
   will-change: background-color;
   z-index: 2;
+}
+
+.story-investmentCard-bit svg {
+  position: absolute;
+  top: 0.2em;
+  left: 0;
+  opacity: 0.9;
 }
 
 .cover-byline {
@@ -219,6 +239,10 @@ footer > div:first-child {
 
 .footer-links {
   background: #131313;
+}
+
+.story-investment a {
+  text-decoration: none;
 }
 
 .footer-links-social {
@@ -310,12 +334,20 @@ footer > div:first-child {
   font-weight: 400;
 }
 
+.story-flex section {
+  background: rgb(255, 250, 248);
+  margin-bottom: 10px;
+}
+
 .latest-funding-section > div:last-child {
   margin-top: 1em;
 }
 
-.story-investment a {
-  text-decoration: none;
+.story-investmentCard-deets h4 {
+  font-size: 18px;
+  color: #000;
+  margin: 0 !important;
+  font-weight: bold;
 }
 
 .story-investment > div:first-child > a {
@@ -356,13 +388,6 @@ footer > div:first-child {
   margin: 0;
 }
 
-.story-investmentCard-deets h4 {
-  font-size: 18px;
-  color: #000;
-  margin: 0 !important;
-  font-weight: bold;
-}
-
 .story-investmentCard-deets h5 {
   color: #000;
   opacity: 0.5;
@@ -394,30 +419,7 @@ footer > div:first-child {
   padding: 16px;
 }
 
-.story-byline a {
-  color: #555;
-  font-size: 12px;
-  font-weight: 400;
-}
-
-.story-byline a span {
-  color: #aaa;
-  vertical-align: bottom;
-}
-
-.story-investmentCard-bit svg {
-  position: absolute;
-  top: 0.2em;
-  left: 0;
-  opacity: 0.9;
-}
-
 .latest-funding-section > div:last-child > section:last-child,
 .latest-funding-section > div:last-child > section:nth-child(3) {
   display: none;
-}
-
-.story-flex section {
-  background: rgb(255, 250, 248);
-  margin-bottom: 10px;
 }

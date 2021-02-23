@@ -5,42 +5,41 @@
   display: block;
 }
 
-.main-article-content{
+.main-article-content {
   position: relative;
 }
 
-.cover-gradient{
+.cover-gradient {
   background: transparent url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
   background-position-x: 0%;
   background-position-y: 0%;
-  background-size: auto;
   background-position: 0 0;
   background-size: cover;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   mix-blend-mode: lighten;
   pointer-events: none;
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 0;
+  top: 0;
   z-index: 4;
 }
 
-.main-article-header{
+.main-article-header {
   display: flex;
   justify-content: space-between;
-  margin: 20px 20px 20px 0px;
+  margin: 20px 20px 20px 0;
 }
 
-#main-article .article-flex{
+#main-article .article-flex {
   justify-content: space-between;
 }
 
-.cover-date{
+.cover-date {
   color: white;
 }
 
-.latest-funding-section > div:last-child > section:last-child{
+.latest-funding-section > div:last-child > section:last-child {
   display: block;
 }
 
@@ -52,13 +51,13 @@
   margin-right: 2%;
 }
 
-.latest-funding-header{
+.latest-funding-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
 
-#main-article .cover-title{
+#main-article .cover-title {
   font-size: 56px;
 }

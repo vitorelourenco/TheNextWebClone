@@ -19,3 +19,7 @@
 .footer-legal li {
   display: inline-block;
 }
+
+.latest-funding-section > div:last-child > section:nth-child(3){
+  display: block;
+}

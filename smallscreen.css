@@ -398,6 +398,8 @@ footer > div:first-child {
   opacity: 0.9;
 }
 
-.latest-funding-section > div:last-child > section:last-child{
+.latest-funding-section > div:last-child > section:last-child,
+.latest-funding-section > div:last-child > section:nth-child(3){
   display: none;
 }
+

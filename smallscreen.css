@@ -1,7 +1,8 @@
 /* fonts */
 @font-face {
   font-family: "maquette";
-  src: url("assets/fonts/ARSMaquettePro-Regular.woff") format("woff"),
+  src:
+    url("assets/fonts/ARSMaquettePro-Regular.woff") format("woff"),
     url("assets/fonts/ARSMaquettePro-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -139,7 +140,8 @@ body {
   justify-content: flex-end;
   height: 100%;
   transition: background-color 0.4s ease;
-  background: rgba(0, 0, 0, 0.25)
+  background:
+    rgba(0, 0, 0, 0.25)
     url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png)
     no-repeat;
   background-size: 100% 100%;
@@ -189,7 +191,7 @@ footer > div:first-child {
   padding: 2.5em 0;
 }
 
-.footer-links{
+.footer-links {
   background: #131313;
 }
 
@@ -228,7 +230,7 @@ footer > div:first-child {
   font-weight: bold;
 }
 
-.footer-legal{
+.footer-legal {
   display: flex;
   color: #aaa;
   height: 97px;
@@ -240,7 +242,7 @@ footer > div:first-child {
   font-size: 13px;
 }
 
-.footer-legal li{
+.footer-legal li {
   display: block;
 }
 

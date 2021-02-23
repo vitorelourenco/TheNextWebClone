@@ -240,6 +240,10 @@ footer > div:first-child {
   font-size: 13px;
 }
 
+.footer-legal li{
+  display: block;
+}
+
 .footer-legal-logo {
   height: 9px;
 }

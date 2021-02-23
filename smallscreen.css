@@ -404,5 +404,6 @@ footer > div:first-child {
 }
 
 .story-flex section{
-  background: rgb(255, 250, 248)
+  background: rgb(255, 250, 248);
+  margin-bottom: 10px;
 }

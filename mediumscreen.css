@@ -1,8 +1,60 @@
 /* header */
+.menu,
+.logo {
+  display: none;
+}
+
 .left-general-navigation,
 .right-general-navigation,
-.home-navigation {
-  display: none;
+.home-navigation,
+.cover-logo,
+.cover-date {
+  display: block;
+}
+
+.basic-header > div:first-child {
+  background-color: #131313;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.basic-header > div:first-child li {
+  display: inline-block;
+  vertical-align: super;
+}
+
+.basic-header > div:first-child a {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.mobile-header {
+  padding: 5px 10px;
+}
+
+.mobile-header nav {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-header nav a {
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+.mobile-header li {
+  display: inline-block;
+}
+.search {
+  padding: 12px;
+}
+.nav-message-announcement {
+  line-height: 30px;
 }
 
 #grid-container {
@@ -17,29 +69,51 @@
 
 .nav-funding-info li {
   display: inline-block;
-  padding: 0px;
+  position: relative;
+  padding: 0.75em 20px 0.75em 0;
 }
 
-.nav-funding-info li:nth-child(2) {
-  border-left: 1px solid #f42;;
-  border-right: 1px solid #f42;;
+.nav-funding-info li:first-child::after,
+.nav-funding-info li:nth-child(2)::after {
+  content: "|";
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  pointer-events: none;
+  position: absolute;
+  color: #f42;
 }
 
 .footer-legal li {
   display: inline-block;
 }
 
-.latest-funding-section > div:last-child > section:nth-child(3){
+.latest-funding-section > div:last-child > section:nth-child(3) {
   display: block;
 }
 
-.story-flex{
+.story-flex {
   display: flex;
   width: 100%;
 }
 
-.story-flex section{
-  padding: 10px;
-  width: 33.3%;
-  background: rgb(255, 250, 248)
+.deals-header-more {
+  display: inline-block;
+  padding: 0;
+}
+
+.story-investment {
+  width: 32.666%;
+}
+
+.story-flex .story-investment:nth-child(2) {
+  margin: 0 2%;
+}
+
+.story-investment > div {
+  background: rgb(255, 250, 248);
+}
+
+.latest-funding-section > div:last-child {
+  margin-top: unset;
 }

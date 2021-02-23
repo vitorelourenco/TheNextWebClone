@@ -46,6 +46,14 @@ h5 {
 }
 
 /* header */
+.basic-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
 .left-general-navigation,
 .right-general-navigation,
 .home-navigation,
@@ -127,6 +135,7 @@ h5 {
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 30px;
+  margin-top: 122px;
 }
 
 .grid-item {
@@ -221,6 +230,7 @@ footer > div:first-child {
 
 .footer-links-social li a {
   background: #333;
+  border: 1px solid #333;
   border-radius: 50%;
   display: block;
   padding: 12px;
@@ -402,11 +412,11 @@ footer > div:first-child {
 }
 
 .latest-funding-section > div:last-child > section:last-child,
-.latest-funding-section > div:last-child > section:nth-child(3){
+.latest-funding-section > div:last-child > section:nth-child(3) {
   display: none;
 }
 
-.story-flex section{
+.story-flex section {
   background: rgb(255, 250, 248);
   margin-bottom: 10px;
 }

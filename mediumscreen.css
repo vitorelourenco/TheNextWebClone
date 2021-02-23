@@ -4,3 +4,18 @@
 .home-navigation {
   display: none;
 }
+
+#grid-container {
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 10px 10px;
+
+}
+
+#main-article {
+  grid-area: 1/1/3/2;
+}
+
+.footer-legal li {
+  display: inline-block;
+}

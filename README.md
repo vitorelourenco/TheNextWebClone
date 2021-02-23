@@ -1,13 +1,32 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # The Next Web Home Page
 
-> This is a clone of The Net Work Website webpage using HTML & CSS: https://thenextweb.com/.
+![screenshot](./app_screenshot.png)
 
-We built this project in the process of practicing RWD and working with media queries.
+> This is a clone of The Net Work Website webpage using HTML & CSS: https://perma.cc/M5ZV-Q2D6 . The goal of 
+> To achieve this, the project makes use of HTML5 and CSS3 and focuses on the web responsivity aspects of the project, making use of media queries to achieve this.
 
 ## Built With
 
-- HTML
-- CSS
+- HTML5 , CSS3
+- Windows, Linux
+
+
+## Live Demo
+
+[Live Demo Link]( https://vitorelourenco.github.io/TheNextWebClone/ )
+
+
+### Deployment
+
+-You can deploy this project cloning it on GitHub and then going to:
+->Repository
+->Settings
+->GitHub Pages
+(Select source)
+->Save
+
 
 ## Authors
 
@@ -36,9 +55,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- The Next Web
+- The Next Web ( https://thenextweb.com/ )
+- Microverse ( https://www.microverse.org/ )
 
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
+
 

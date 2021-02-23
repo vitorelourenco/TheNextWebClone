@@ -50,7 +50,8 @@ h5 {
 .right-general-navigation,
 .home-navigation,
 .cover-logo,
-.cover-date {
+.cover-date,
+.main-article-header {
   display: none;
 }
 

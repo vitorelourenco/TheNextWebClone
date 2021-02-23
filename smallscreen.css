@@ -233,9 +233,14 @@ footer > div:first-child {
   color: #aaa;
   height: 97px;
   line-height: 97px;
-
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: maquette, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
 }
 
-.footer-legal p{
-  display: inline-block;
+.footer-legal-logo {
+  height: 9px;
 }

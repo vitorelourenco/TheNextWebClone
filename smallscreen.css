@@ -51,7 +51,8 @@ h5 {
 .home-navigation,
 .cover-logo,
 .cover-date,
-.main-article-header {
+.main-article-header,
+#gradient-div {
   display: none;
 }
 

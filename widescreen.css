@@ -1,7 +1,29 @@
 .cover-logo,
 .cover-date,
-.main-article-header{
+.main-article-header,
+#gradient-div {
   display: block;
+}
+
+.main-article-content{
+  position: relative;
+}
+
+.cover-gradient{
+  background: transparent url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  background-position: 0 0;
+  background-size: cover;
+  bottom: 0px;
+  left: 0px;
+  mix-blend-mode: lighten;
+  pointer-events: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 4;
 }
 
 .main-article-header{

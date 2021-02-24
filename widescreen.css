@@ -31,25 +31,22 @@
   margin: 20px 20px 20px 0;
 } */
 
-.cover-logo{
+.cover-logo {
   position: absolute;
   top: 20px;
   left: 0;
 }
 
-.cover-date{
+.cover-date {
   position: absolute;
   right: 20px;
   top: 20px;
   font-size: 14px;
+  color: white;
 }
 
 #main-article .article-flex {
   justify-content: space-between;
-}
-
-.cover-date {
-  color: white;
 }
 
 .latest-funding-section > div:last-child > section:last-child {

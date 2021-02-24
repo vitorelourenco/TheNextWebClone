@@ -93,10 +93,7 @@ h5 {
 .search,
 .menu {
   display: inline-block;
-  border: unset;
-  background: transparent;
   border-left: 1px solid #eee;
-  height: 100%;
   padding: 16px;
 }
 
@@ -120,11 +117,15 @@ h5 {
 }
 
 .menu span:first-child {
-  transform: translateY(-6px);
+  transform: translateY(-1px);
+}
+
+.menu span:nth-child(2) {
+  transform: translateY(4px);
 }
 
 .menu span:last-child {
-  transform: translateY(6px);
+  transform: translateY(9px);
 }
 
 .nav-message-announcement {

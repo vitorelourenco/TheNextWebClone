@@ -25,10 +25,23 @@
   z-index: 4;
 }
 
-.main-article-header {
+/* .main-article-header {
   display: flex;
   justify-content: space-between;
   margin: 20px 20px 20px 0;
+} */
+
+.cover-logo{
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+.cover-date{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 14px;
 }
 
 #main-article .article-flex {

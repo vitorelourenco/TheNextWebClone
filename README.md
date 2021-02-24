@@ -1,59 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-> One paragraph statement about the project.
+# The Next Web Home Page
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+> This is a clone of The Net Work Website webpage using HTML & CSS: https://perma.cc/M5ZV-Q2D6 . The goal of 
+> To achieve this, the project makes use of HTML5 and CSS3 and focuses on the web responsivity aspects of the project, making use of media queries to achieve this.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5 , CSS3
+- Windows, Linux
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]( https://vitorelourenco.github.io/TheNextWebClone/ )
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
 
 ### Deployment
 
+-You can deploy this project cloning it on GitHub and then going to:
+->Repository
+->Settings
+->GitHub Pages
+(Select source)
+->Save
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@vitorelourenco](https://github.com/vitorelourenco/)
+- Twitter: [@Vitorel](https://twitter.com/Vitorel)
+- LinkedIn: [vitoremanuellourenco](https://www.linkedin.com/in/vitoremanuellourenco/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [Maha-Magdy](https://github.com/Maha-Magdy)
+- Twitter: [@Maha_M_Abdelaal](https://twitter.com/Maha_M_Abdelaal)
+- LinkedIn: [Maha Magdy](https://www.linkedin.com/in/maha-magdy-18a8a7116/)
+
 
 ## 🤝 Contributing
 
@@ -67,11 +55,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The Next Web ( https://thenextweb.com/ )
+- Microverse ( https://www.microverse.org/ )
 
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
+
 
